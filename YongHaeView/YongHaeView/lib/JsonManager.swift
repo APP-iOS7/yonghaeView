@@ -1,5 +1,5 @@
-//Ver : 0_0_1
-//Date : 2025-02-14
+//Ver : 0_1_2
+//Date : 2025-02-15
 //Contents : Manage Json file
 
 import Foundation

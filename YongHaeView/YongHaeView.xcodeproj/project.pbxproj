@@ -33,6 +33,7 @@
 			isa = PBXGroup;
 			children = (
 				6219F2E72D5D022B00B5CDAB /* YongHaeView */,
+				6219F38D2D6065CF00B5CDAB /* Frameworks */,
 				6219F2E62D5D022B00B5CDAB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +44,13 @@
 				6219F2E52D5D022B00B5CDAB /* YongHaeView.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		6219F38D2D6065CF00B5CDAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
