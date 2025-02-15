@@ -13,7 +13,10 @@ struct ContentView: View {
     @Query private var config: [config]
 
     var body: some View {
-        Text("")
+        Button("test") {
+            let imageDataList = loadImageData(jsonFileName: "ImageInfomation")
+            let lista = encodeImageData(imageDataList: imageDataList)
+        }
     }
     
     
