@@ -93,3 +93,8 @@ iOSInjectionProject/
 !*.xcworkspace/contents.xcworkspacedata
 /*.gcno
 **/xcshareddata/WorkspaceSettings.xcsettings
+
+##path, conf
+YongHaeView/YongHaeView/config/
+YongHaeView/YongHaeView/config/path.swift
+YongHaeView/YongHaeView/config/conf.swift
