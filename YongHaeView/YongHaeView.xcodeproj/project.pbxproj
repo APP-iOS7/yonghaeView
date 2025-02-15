@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		62D054782D5CF2840016B37F /* YongHaeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YongHaeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6219F2E52D5D022B00B5CDAB /* YongHaeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YongHaeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		62D0547A2D5CF2840016B37F /* YongHaeView */ = {
+		6219F2E72D5D022B00B5CDAB /* YongHaeView */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = YongHaeView;
 			sourceTree = "<group>";
@@ -19,7 +19,7 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		62D054752D5CF2840016B37F /* Frameworks */ = {
+		6219F2E22D5D022B00B5CDAB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,83 +29,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		62D0546F2D5CF2840016B37F = {
+		6219F2DC2D5D022B00B5CDAB = {
 			isa = PBXGroup;
 			children = (
-				62D0547A2D5CF2840016B37F /* YongHaeView */,
-				62D054792D5CF2840016B37F /* Products */,
+				6219F2E72D5D022B00B5CDAB /* YongHaeView */,
+				6219F38D2D6065CF00B5CDAB /* Frameworks */,
+				6219F2E62D5D022B00B5CDAB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		62D054792D5CF2840016B37F /* Products */ = {
+		6219F2E62D5D022B00B5CDAB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				62D054782D5CF2840016B37F /* YongHaeView.app */,
+				6219F2E52D5D022B00B5CDAB /* YongHaeView.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		6219F38D2D6065CF00B5CDAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		62D054772D5CF2840016B37F /* YongHaeView */ = {
+		6219F2E42D5D022B00B5CDAB /* YongHaeView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62D054882D5CF2860016B37F /* Build configuration list for PBXNativeTarget "YongHaeView" */;
+			buildConfigurationList = 6219F2F62D5D022C00B5CDAB /* Build configuration list for PBXNativeTarget "YongHaeView" */;
 			buildPhases = (
-				62D054742D5CF2840016B37F /* Sources */,
-				62D054752D5CF2840016B37F /* Frameworks */,
-				62D054762D5CF2840016B37F /* Resources */,
+				6219F2E12D5D022B00B5CDAB /* Sources */,
+				6219F2E22D5D022B00B5CDAB /* Frameworks */,
+				6219F2E32D5D022B00B5CDAB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				62D0547A2D5CF2840016B37F /* YongHaeView */,
+				6219F2E72D5D022B00B5CDAB /* YongHaeView */,
 			);
 			name = YongHaeView;
 			packageProductDependencies = (
 			);
 			productName = YongHaeView;
-			productReference = 62D054782D5CF2840016B37F /* YongHaeView.app */;
+			productReference = 6219F2E52D5D022B00B5CDAB /* YongHaeView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		62D054702D5CF2840016B37F /* Project object */ = {
+		6219F2DD2D5D022B00B5CDAB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					62D054772D5CF2840016B37F = {
+					6219F2E42D5D022B00B5CDAB = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = 62D054732D5CF2840016B37F /* Build configuration list for PBXProject "YongHaeView" */;
+			buildConfigurationList = 6219F2E02D5D022B00B5CDAB /* Build configuration list for PBXProject "YongHaeView" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 62D0546F2D5CF2840016B37F;
+			mainGroup = 6219F2DC2D5D022B00B5CDAB;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 62D054792D5CF2840016B37F /* Products */;
+			productRefGroup = 6219F2E62D5D022B00B5CDAB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				62D054772D5CF2840016B37F /* YongHaeView */,
+				6219F2E42D5D022B00B5CDAB /* YongHaeView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		62D054762D5CF2840016B37F /* Resources */ = {
+		6219F2E32D5D022B00B5CDAB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +123,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		62D054742D5CF2840016B37F /* Sources */ = {
+		6219F2E12D5D022B00B5CDAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +133,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		62D054862D5CF2860016B37F /* Debug */ = {
+		6219F2F42D5D022C00B5CDAB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -177,18 +185,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		62D054872D5CF2860016B37F /* Release */ = {
+		6219F2F52D5D022C00B5CDAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,96 +242,93 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		62D054892D5CF2860016B37F /* Debug */ = {
+		6219F2F72D5D022C00B5CDAB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = YongHaeView/YongHaeView.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"YongHaeView/Preview Content\"";
-				DEVELOPMENT_TEAM = 59FP2PXRXK;
+				DEVELOPMENT_TEAM = C7M54GRB7W;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kr.co.panMade.YongHaeView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		62D0548A2D5CF2860016B37F /* Release */ = {
+		6219F2F82D5D022C00B5CDAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = YongHaeView/YongHaeView.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"YongHaeView/Preview Content\"";
-				DEVELOPMENT_TEAM = 59FP2PXRXK;
+				DEVELOPMENT_TEAM = C7M54GRB7W;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kr.co.panMade.YongHaeView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		62D054732D5CF2840016B37F /* Build configuration list for PBXProject "YongHaeView" */ = {
+		6219F2E02D5D022B00B5CDAB /* Build configuration list for PBXProject "YongHaeView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				62D054862D5CF2860016B37F /* Debug */,
-				62D054872D5CF2860016B37F /* Release */,
+				6219F2F42D5D022C00B5CDAB /* Debug */,
+				6219F2F52D5D022C00B5CDAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62D054882D5CF2860016B37F /* Build configuration list for PBXNativeTarget "YongHaeView" */ = {
+		6219F2F62D5D022C00B5CDAB /* Build configuration list for PBXNativeTarget "YongHaeView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				62D054892D5CF2860016B37F /* Debug */,
-				62D0548A2D5CF2860016B37F /* Release */,
+				6219F2F72D5D022C00B5CDAB /* Debug */,
+				6219F2F82D5D022C00B5CDAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 62D054702D5CF2840016B37F /* Project object */;
+	rootObject = 6219F2DD2D5D022B00B5CDAB /* Project object */;
 }
