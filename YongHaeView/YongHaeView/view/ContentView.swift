@@ -15,7 +15,6 @@ struct ContentView: View {
     var body: some View {
         Button("Click") {
             let transeNSImage = imageNameToNSImage("ez")
-            print(transeNSImage as Any)
             copyImageToClipboard(transeNSImage)
         }
     }

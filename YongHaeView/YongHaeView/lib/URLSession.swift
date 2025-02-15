@@ -4,3 +4,9 @@
 
 
 import Foundation
+
+func Post(url: String) {
+    guard let url = URL(string: ) else {
+        
+    }
+}

@@ -13,7 +13,6 @@ func copyImageToClipboard(_ image: NSImage?) {
     pasteboard.clearContents()
     if let tiffRepresentation = image.tiffRepresentation, let bitmapImage = NSBitmapImageRep(data: tiffRepresentation) {
         pasteboard.setData(bitmapImage.representation(using: .png, properties: [:])!, forType: .png)
-        print("copied to clipboard")
     }
     else {
         print("Image transfer is fail")
