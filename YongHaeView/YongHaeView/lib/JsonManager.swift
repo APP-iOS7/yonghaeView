@@ -8,6 +8,12 @@ struct ImageData : Decodable, Encodable {
     let imageTitle: String
     let imageName: String
     let type: String
+    
+    init(imageTitle: String, imageName: String, type: String) {
+        self.imageTitle = imageTitle
+        self.imageName = imageName
+        self.type = type
+    }
 }
 
 func getImageDataToJsonfile(jsonFileName: String) -> [ImageData] {
