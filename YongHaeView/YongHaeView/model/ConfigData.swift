@@ -6,10 +6,10 @@ import Foundation
 import SwiftData
 
 @Model
-final class config {
-    var isUpdated: Bool = false
+final class ConfigData {
+    var isUpdated: Bool?
     
-    init(isUpdated: Bool) {
+    init(isUpdated: Bool?, isFloating: Bool?) {
         self.isUpdated = isUpdated
     }
 }

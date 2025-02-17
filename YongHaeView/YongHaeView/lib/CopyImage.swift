@@ -20,7 +20,8 @@ func copyImageToClipboard(_ image: NSImage?) {
 }
 
 func imageNameToNSImage(_ imageName: String) -> NSImage? {
-    if let imageFilePath = Bundle.main.path(forResource: imageName, ofType: "png") {
+    let splitImageName: String = String(imageName.split(separator: ".")[0])
+    if let imageFilePath = Bundle.main.path(forResource: splitImageName, ofType: "png") {
         let image = NSImage(contentsOfFile: imageFilePath)
         return image
     }
