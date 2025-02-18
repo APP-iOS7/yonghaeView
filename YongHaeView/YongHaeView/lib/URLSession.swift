@@ -17,18 +17,21 @@ func postRequset(request: URLRequest, httpBody: Data?) async throws -> Data? {
     var request = request
     if let httpBody = httpBody {
         request.httpBody = httpBody
-        do {
+        do { 
             let (data, response) = try await URLSession.shared.data(for: request)
-//            switch response {
-//            case 200..<300:
-//                return data
-//            case 300..<400:
-//                print("error : 300..<400")
-//            case 400..<500:
-//                print("error : 400..<500")
-//            default:
-//                <#code#>
-//            }
+            guard let httpResponse = response as? HTTPURLResponse else {
+                return nil
+            }
+            switch httpResponse.statusCode {
+            case 200..<300:
+                return data
+            case 300..<400:
+                print("error : 300..<400")
+            case 400..<500:
+                print("error : 400..<500")
+            default:
+                print("molru")
+            }
             return data
         }
         catch {
